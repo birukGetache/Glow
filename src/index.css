@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', cursive;
+  box-sizing: border-box;
+  width: 100vw;
+}
+.scroll{
+  height: 60px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 25px;
+  border: solid 2px rgb(55, 22, 1);
+  cursor:pointer;
+}
+*{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
