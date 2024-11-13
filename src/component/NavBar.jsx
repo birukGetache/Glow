@@ -3,7 +3,7 @@ import React from 'react';
 function NavBar() {
   return (
     <nav className="pl-28 pr-28 flex items-center justify-between  bg-opacity-10 bg-black w-screen  overflow-x-hidden z-11 top-0 left-0 text-white h-[10vh] box-border">
-      <div className="text-xl font-bold  text-yellow-500 font-poppin">MyWebsite</div>
+      <div className="text-xl font-bold  text-yellow-500 font-poppin"><img src='./logo.png' className='w-20 h-15 ' style={{borderRadius:"30px"}}></img></div>
       <ul className="flex space-x-6">
         <li className='cursor-pointer'>
           <a href="/" className="hover:text-white text-yellow-500 font-poppins ">Home</a>

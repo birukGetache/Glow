@@ -3,21 +3,27 @@ import NavBar from './NavBar';
 
 const services = [
   {
-    title: "Ultrasonic Gel",
-    description: "A specialized gel for ultrasonic devices, ensuring proper conductivity and effectiveness in treatments.",
-    icon: "💧", // You can replace this with an appropriate icon or emoji
+    title: "Glow ultrasound gel",
+    description: "A specialized gel for ultrasound devices, ensuring proper conductivity and effectiveness in treatments.",
+    icon: "💧", // Gel icon
   },
   {
-    title: "Fertilizer",
-    description: "High-quality fertilizers to promote healthy growth and better yields for your crops.",
-    icon: "🌱", // Again, choose an appropriate icon
+    title: "Glow Organic fungicide",
+    description: "An organic fungicide designed to protect plants from fungal infections and promote healthy growth.",
+    icon: "🍄", // Fungus icon (or use another relevant icon)
   },
   {
-    title: "Good Crop",
-    description: "Ensure optimal crop growth with our agricultural solutions for improved harvest and sustainability.",
-    icon: "🌾", // You can use other icons or emojis to represent crops
+    title: "Glow antifungal cream",
+    description: "A topical antifungal cream that provides relief from infections and promotes healing.",
+    icon: "🧴", // Cream bottle or relevant icon
+  },
+  {
+    title: "Glow consultancy",
+    description: "Professional consultancy services offering expert guidance and solutions tailored to meet diverse business needs and challenges.",
+    icon: "💼", // Briefcase or relevant consultancy icon
   },
 ];
+
 
 const ServicePage = () => {
   return (
@@ -32,7 +38,7 @@ const ServicePage = () => {
         </p>
 
         {/* Service Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl h-auto overflow-y-hidden mb-4">{service.icon}</div>

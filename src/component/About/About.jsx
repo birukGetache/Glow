@@ -25,7 +25,7 @@ const About = () => {
       </div>
       <div className="container mx-auto px-6 text-center">
         <p className="text-lg text-gray-600 mb-12">
-          We are a team of passionate individuals dedicated to providing the best solutions to our clients. Our mission is to innovate and lead in our industry while maintaining a strong commitment to customer satisfaction.
+        Founded in 2024, Glow Startup Company is an innovative company specializing in high-quality healthcare and personal care products, including ultrasound gel, antifungal creams, personal care products like Conditioner and shampoos. We are committed to delivering effective, safe, and eco-friendly solutions for both medical professionals and consumers.
         </p>
       </div>
     

@@ -5,32 +5,60 @@ import NavBar from './NavBar';
 const products = [
   {
     id: 1,
-    name: "Ultrasonic Gell",
+    name: " Glow ultrasound gel",
     description: "This is a high-quality product.",
-    price: "99.99 Birr",
+    litter:"0.5 liter",
+    price: 142.25 ,
     image: "https://via.placeholder.com/300",
+    pack:" 8 pack"
   },
   {
     id: 2,
-    name: "Fertilizer",
+    name: " Glow ultrasound gel",
+    litter:"1 litter",
     description: "This product is designed to make your life easier.",
-    price: "129.99 Birr",
+    price: 284.5,
     image: "https://via.placeholder.com/300",
+    pack:"4 pack"
   },
   {
     id: 3,
-    name: "Skin Oil",
+    name: "Glow antifungal cream",
+    litter:"500 ml",
+    pack:"1 pack",
+    price:240,
     description: "A reliable product with outstanding features.",
-    price: "1089.99 Birr",
+    image: "https://via.placeholder.com/300",
+  },
+ 
+  {
+    id: 4,
+    name: " Glow fungicide",
+    litter:250,
+    price:400,
+    case:"for vegetables",
+    description: "Perfect for those looking for quality and style.",
     image: "https://via.placeholder.com/300",
   },
   {
-    id: 4,
-    name: "hair Oil",
+    id: 5,
+    name: " Glow fungicide",
+    litter:500,
+    price:400,
+    case:"for vegetables",
     description: "Perfect for those looking for quality and style.",
-    price: "149.99 Birr",
     image: "https://via.placeholder.com/300",
   },
+  {
+    id: 6,
+    name: " Glow fungicide",
+    litter:1000,
+    price:600,
+    case:"for vegetables",
+    description: "Perfect for those looking for quality and style.",
+    image: "https://via.placeholder.com/300",
+  },
+
   // Add more products as needed
 ];
 
@@ -75,7 +103,13 @@ const Shop = () => {
               />
               <h3 className="text-xl font-semibold text-gray-800">{product.name}</h3>
               <p className="text-gray-500 mt-2">{product.description}</p>
-              <p className="text-gray-800 font-semibold mt-4">{product.price}</p>
+{product.pack ? (
+  <p className="text-gray-800 font-semibold mt-4">Pack: {product.pack}</p>
+) : null}
+
+             
+              <p className="text-gray-800 font-semibold mt-4">Litter:{product.litter}</p>
+              <p className="text-gray-800 font-semibold mt-4">Price: {product.price}</p>
             </div>
           ))}
         </div>

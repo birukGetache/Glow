@@ -7,6 +7,10 @@ const images = [
   { src: "./awardall.jpg", text: "We are thrilled to announce our outstanding achievement in the recent creativity competition! Our team's innovative approach, passion for originality, and dedication to excellence have set us apart, leading us to secure the top spot." },
   { src: "./award.jpg", text: "We are thrilled to announce our outstanding achievement in the recent creativity competition! Our team's innovative approach, passion for originality, and dedication to excellence have set us apart, leading us to secure the top spot." },
   { src: "./product.jpg", text: "We are thrilled to announce our outstanding achievement in the recent creativity competition! Our team's innovative approach, passion for originality, and dedication to excellence have set us apart, leading us to secure the top spot." },
+  { src: "./1.jpeg", text: "Entrepreneurship Mindset and Idea Development Training On March 2024, we had had a training session on entrepreneurship mindset and idea development delivered by BiTec Entrepreneurship and business incubation center, Bhirdar University." },
+  { src: "./2.jpeg", text: "First pitching experience On April 2024, we had pitched our innovative idea titled Production of ultrasound gel from aloe vera leaves for the first time and stood 3rd from eighteen business ideas." },
+  { src: "./3.png", text: "Presenting our Business Idea MVP on an exhibition On May 2024 we had participated on an exhibition bringing MVP of our business idea to welcome the new president of Bahirdar university with his higher official dignitaries." },
+  { src: "./4.jpeg", text: "1st place National Pitch Winning On August 2024, we won 1st place the national agro business idea competition organized by GIZ, R&D groups and Growth Africa at Nexus international hotel, Addis Ababa." },
   // Add more images as needed
 ];
 

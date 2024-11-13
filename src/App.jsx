@@ -10,13 +10,16 @@ import ProductsAndServices from './component/ProductsAndServices'
 import ShopPage from './component/Shop'
 import GalleryPage from './component/Gallery'
 import ContactUsPage from './component/Contact'
+import Impact from './component/Impact'
 function App() {
   const routes = [
     { path: '/', component:   <>
       <Home></Home>
       <Info></Info>
+      <Impact></Impact>
       <TestimonialComponent></TestimonialComponent>
       <Team></Team>
+
         </> },
     { path: '/about', component:  <About></About> },
     { path: '/services', component: <ProductsAndServices></ProductsAndServices>  },

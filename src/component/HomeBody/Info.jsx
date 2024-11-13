@@ -14,11 +14,14 @@ const HalfBorder = () => {
             <p className="flex items-center justify-center h-full text-6xl"> 1</p>
         </div>
         <p className="flex  justify-center  mt-1 pt-2 text-xl">
-      Did you know? According to united nations development programme (UNDP) Eventhough 85% of the Ethiopian economy relies on agriculture, 68.7 percent of the population in the country is multidimensionally poor.
+    
+DID YOU KNOW?<br></br>
+
+&nbsp;&nbsp;&nbsp;&nbsp; According to Statista, the global health and personal care products market was estimated to be worth $648.6 billion in 2024. These include ultrasound gel, antifungal cream, personal care products like shampoo, conditioner, tooth paste,  and the like. Imagine the disaster if all the production relies on synthetic chemicals.
         </p>
         </div>
         <div>
-         <img src='./724114.jpg' className='rounded'></img>
+         <img src='./glow.jfif' className='rounded'></img>
         </div>
 
 
@@ -37,9 +40,9 @@ const HalfBorder = () => {
             <p className="flex items-center justify-center h-full text-6xl"> 2</p>
         </div>
         <p className="flex  justify-center  mt-1 pt-2 text-xl">
-        Who we are?
+        WHO WE ARE?<br></br>
 
-Vera fungicide strives for developing a natural fungicide to boost crop yields and guarantee food security.
+        &nbsp;&nbsp;&nbsp;&nbsp;Glow production is a company located in Bahirdar, Ethiopia which strives for a natural and responsible production of these products from locally available abundant herbs. The company holds the issue of sustainability as a crystal foundation of manufacturing.
         </p>
         </div>
 
@@ -55,11 +58,13 @@ Vera fungicide strives for developing a natural fungicide to boost crop yields a
             <p className="flex items-center justify-center h-full text-6xl"> 3</p>
         </div>
         <p className="flex  justify-center  mt-1 pt-2 text-xl">
-        Ethiopia has significant potential in agriculture due to its favorable climate, diverse geography, and vast arable land. Agriculture is the backbone of Ethiopia’s economy, employing the majority of the population and contributing substantially to its GDP. 
+        WHAT WE DO?<br></br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;We produce 96% natural ultrasound gel, 95% organic antifungal cream, and 98% natural fungicide from a the herb which is known as "king of herbs"- aloe vera.
         </p>
         </div>
         <div>
-         <img src='./Ethiopia.jpg' className='rounded'></img>
+         <img src='./ultrasonic.jpg' className='rounded'></img>
         </div>
 
 
