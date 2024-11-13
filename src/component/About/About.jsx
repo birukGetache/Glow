@@ -10,7 +10,7 @@ const About = () => {
     <section className="bg-gray-100 py-12 ">
      
          <h2 className="text-4xl font-bold text-gray-800 mb-6 text-center">About Us</h2>
-         <div className='grid grid-cols-2 p-28'>
+         <div className='grid grid-cols-1 md:grid-cols-2 p-5 md:p-28'>
          <div>
          <div className="w-auto h-auto mt-3 mb-2 box-border  relative">
             <div className='flex items-center justify-center h-fit'>

@@ -5,9 +5,10 @@ import React from 'react';
 const Impact = () => {
   return (
 
-    <div className='pl-28  pr-28 box-border pt-10 pb-10'>
+    <div className="py-8 bg-gray-100 px-4 sm:px-8 md:px-16 lg:px-28 box-border">
         <p className='text-3xl font-bold text-center text-yellow-500 mb-8 overflow-hidden'>Impact</p>
-        <div className='grid grid-cols-4 gap-10 place-content-between'>
+        <div className='grid md:grid-cols-4 gap-10 place-content-center'>
+            
 <div className="max-w-sm p-4 bg-yellow-500 border rounded-lg shadow-lg space-y-4">
     <div className='flex gap-2'>
       <h3 className="text-center font-semibold  text-[20px] w-20 text-white ">1</h3>
