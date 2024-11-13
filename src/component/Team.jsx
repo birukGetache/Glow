@@ -2,9 +2,9 @@ import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 const testimonials = [
   {
-    name: "Tariku Sharew Demilew",
+    name: "Tariku Sharew ",
     designation: "Production Team Leader",
-    text: "This service is outstanding! It helped us streamline our operations and increase productivity. Highly recommended.",
+    text: "This service is outstanding! It helped us streamline to increase productivity",
     image: "./Tariku.jpg",
      linkedin: 'https://www.linkedin.com/in/tariku-sharew/'
   },
@@ -33,7 +33,7 @@ const testimonials = [
 
 const TestimonialCard = ({ name, designation, text, image , linkedin }) => {
   return (
-    <div className="max-w-sm p-4 bg-white border rounded-lg shadow-lg space-y-4">
+    <div className=" p-4 bg-white border rounded-lg shadow-lg space-y-4 ">
       <img src={image} alt={name} className="w-20 h-20 rounded-full mx-auto" />
       <h3 className="text-xl font-semibold text-center">{name}</h3>
       <p className="text-center text-gray-500">{designation}</p>
@@ -54,9 +54,9 @@ const TestimonialCard = ({ name, designation, text, image , linkedin }) => {
 
 const Team = () => {
   return (
-    <div className="py-8 bg-gray-100">
+    <div className="py-8 bg-gray-100 px-28">
       <h2 className="text-3xl font-bold text-center text-yellow-500 mb-8"> Our Team</h2>
-      <div className="flex justify-center space-x-8">
+      <div className="grid grid-cols-4 gap-5">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}

@@ -58,9 +58,9 @@ const TestimonialCard = ({ name, designation, text, image }) => {
 
 const TestimonialComponent = () => {
   return (
-    <div className="py-8 bg-gray-100">
-      <h2 className="text-3xl font-bold text-center text-yellow-500 mb-8">Testimonials</h2>
-      <div className="flex justify-center space-x-8">
+    <div className="py-8 bg-gray-100 px-28">
+      <h2 className="text-3xl font-bold text-center text-yellow-500 mb-8 overflow-hidden">Testimonials</h2>
+      <div className="flex justify-between space-x-8">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}
