@@ -77,7 +77,7 @@ const Home = () => {
               animation: "fadeIn 2s ease-in-out forwards",
             }}
           >
-            <img src="./centerlogo.png" className="h-64 md:h-96" alt="Image" />
+            <img src="./image_2024-11-15_19-54-49-removebg-preview.png" className="h-64 md:h-96" alt="Image" />
           </div>
 
           {/* Right Div Animation */}
