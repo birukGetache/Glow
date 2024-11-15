@@ -63,7 +63,7 @@ const Home = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-yellow-500 overflow-y-hidden text-center">
               Health through nature
             </h1>
-            <button className="mt-6 px-6 py-3 bg-black text-yellow-500 hover:bg-yellow-500 hover:text-black rounded-lg cursor-pointer">
+            <button className="mt-6 px-6 py-1 md:py-3 bg-black text-yellow-500 hover:bg-yellow-500 hover:text-black rounded-lg cursor-pointer">
               Learn More
             </button>
           </div>
