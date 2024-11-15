@@ -4,12 +4,13 @@ const Home = () => {
       <style>
         {`
           .before-text::before {
-            content: "Ultrasound";
+            content: "Glow Production";
             position: absolute;
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 200px;
+            font-size: 170px;
+           white-space: nowrap; 
             font-weight: bold;
             color: #ddd;
             z-index: -1;
