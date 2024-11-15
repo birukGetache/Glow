@@ -32,34 +32,34 @@ function NavBar() {
       </div>
 
       {/* Navigation Menu */}
-      <ul className={`flex space-x-6 md:flex ${isOpen ? 'flex-col items-center py-40 gap-10 absolute bg-black z-50 bg-opacity-95 top-16 left-0 w-full h-screen' : 'hidden md:flex'}`}>
+      <ul className={`flex  md:flex ${isOpen ? 'flex-col items-center py-40 gap-10 absolute bg-black z-50 bg-opacity-95 top-16 left-0 w-full h-screen' : 'hidden md:flex'}`}>
         <li className="cursor-pointer overflow-hidden h-auto">
-          <a href="/" className="hover:text-white text-yellow-500 font-poppins">
+          <a href="/" className="hover:text-white text-yellow-500 font-poppins  h-6">
             Home
           </a>
         </li>
         <li className="cursor-pointer overflow-hidden h-auto">
-          <a href="/about" className="hover:text-white text-yellow-500 font-poppins">
+          <a href="/about" className="hover:text-white text-yellow-500 font-poppins h-6">
             About
           </a>
         </li>
         <li className="cursor-pointer overflow-hidden h-auto">
-          <a href="/services" className="hover:text-white text-yellow-500 font-poppins">
+          <a href="/services" className="hover:text-white text-yellow-500 font-poppins  h-6">
             Products and services
           </a>
         </li>
         <li className="cursor-pointer overflow-hidden h-auto">
-          <a href="/shop" className="hover:text-white text-yellow-500 font-poppins">
+          <a href="/shop" className="hover:text-white text-yellow-500 font-poppins  h-6">
             Shop
           </a>
         </li>
         <li className="cursor-pointer overflow-hidden h-auto">
-          <a href="/gallery" className="hover:text-white text-yellow-500 font-poppins">
+          <a href="/gallery" className="hover:text-white text-yellow-500 font-poppins  h-6">
             Gallery
           </a>
         </li>
         <li className="cursor-pointer z-10 h-30">
-          <a href="/contact" className="hover:text-white text-yellow-500 font-poppins">
+          <a href="/contact" className="hover:text-white text-yellow-500 font-poppins  h-6">
             Contact us
           </a>
         </li>
