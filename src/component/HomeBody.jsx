@@ -60,7 +60,7 @@ const Home = () => {
     animation: "slideInLeft 2s ease-in-out forwards",
   }}
 >
-  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-yellow-500 overflow-y-hidden text-center">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 md:mb-3 lg:mb-4 text-yellow-500 overflow-y-hidden text-center">
     Health through nature
   </h1>
   <button className="mt-4 sm:mt-6 px-4 py-2 sm:px-6 sm:py-2 md:py-3 bg-black text-yellow-500 hover:bg-yellow-500 hover:text-black rounded-lg cursor-pointer">
