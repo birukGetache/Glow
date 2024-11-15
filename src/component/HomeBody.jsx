@@ -55,18 +55,19 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
           {/* Left Div Animation */}
           <div
-            className="flex flex-col items-center justify-center animate-slideInLeft"
-            style={{
-              animation: "slideInLeft 2s ease-in-out forwards",
-            }}
-          >
-            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-yellow-500 overflow-y-hidden text-center">
-              Health through nature
-            </h1>
-            <button className="mt-6 px-6 py-1 md:py-3 bg-black text-yellow-500 hover:bg-yellow-500 hover:text-black rounded-lg cursor-pointer">
-              Learn More
-            </button>
-          </div>
+  className="flex flex-col items-center justify-center animate-slideInLeft w-full px-4 md:px-0"
+  style={{
+    animation: "slideInLeft 2s ease-in-out forwards",
+  }}
+>
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-yellow-500 overflow-y-hidden text-center">
+    Health through nature
+  </h1>
+  <button className="mt-4 sm:mt-6 px-4 py-2 sm:px-6 sm:py-2 md:py-3 bg-black text-yellow-500 hover:bg-yellow-500 hover:text-black rounded-lg cursor-pointer">
+    Learn More
+  </button>
+</div>
+
 
           {/* Center Image Animation */}
           <div
