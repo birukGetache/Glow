@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="h-[75vh] pl-6 pr-6 text-black flex justify-center items-center w-screen relative overflow-hidden box-border">
+    <div className="h-[80vh] pl-6 pr-6 text-black flex justify-center items-center w-screen relative overflow-hidden box-border">
       <style>
         {`
           .before-text::before {

@@ -8,7 +8,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="px-4 sm:px-8 md:px-16 lg:px-28 flex items-center justify-between bg-opacity-10 bg-black w-screen overflow-x-hidden z-11 top-0 left-0 text-white h-[10vh] box-border">
+    <nav className="px-4 h-[20vh] sm:px-8 md:px-16 lg:px-28 flex items-center justify-between bg-opacity-10 bg-black w-screen overflow-x-hidden z-11 top-0 left-0 text-white  box-border">
       <div className="">
         <img src="./logo.png" className="w-20 h-15" style={{ borderRadius: '30px' }} alt="Logo" />
       </div>
