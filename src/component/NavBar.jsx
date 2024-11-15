@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const NavBar = () => {
+function NavBar() {
   const [isOpen, setIsOpen] = useState(false); // State to toggle menu visibility
 
   const toggleMenu = () => {
@@ -8,22 +8,13 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="px-4 sm:px-8 md:px-16 lg:px-28 flex items-center justify-between bg-black bg-opacity-10 w-full h-[10vh] fixed top-0 left-0 text-white z-20">
-      {/* Logo */}
-      <div>
-        <img
-          src="./logo.png"
-          className="w-20 h-15 rounded-full"
-          alt="Logo"
-        />
+    <nav className="px-4 sm:px-8 md:px-16 lg:px-28 flex items-center justify-between bg-opacity-10 bg-black w-screen overflow-x-hidden z-11 top-0 left-0 text-white h-[10vh] box-border">
+      <div className="">
+        <img src="./logo.png" className="w-20 h-15" style={{ borderRadius: '30px' }} alt="Logo" />
       </div>
 
-      {/* Hamburger Menu Icon (visible on mobile only) */}
-      <button
-        className="md:hidden cursor-pointer"
-        onClick={toggleMenu}
-        aria-label="Toggle Menu"
-      >
+      {/* Hamburger Menu Icon */}
+      <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -38,31 +29,43 @@ const NavBar = () => {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
-      </button>
+      </div>
 
       {/* Navigation Menu */}
-      <ul
-        className={`flex md:flex ${
-          isOpen
-            ? 'flex-col items-center py-20 gap-10 absolute bg-black bg-opacity-90 top-16 left-0 w-full h-screen md:h-auto md:w-auto z-10'
-            : 'hidden md:flex'
-        }`}
-      >
-        {/** Menu Links */}
-        {['Home', 'About', 'Products and services', 'Shop', 'Gallery', 'Contact us'].map((item, index) => (
-          <li key={index} className="cursor-pointer overflow-hidden">
-            <a
-              href={`/${item.toLowerCase().replace(/ /g, '')}`}
-              className="hover:text-white text-yellow-500 font-poppins px-4 py-2 block"
-              onClick={() => setIsOpen(false)} // Close the menu when an item is clicked
-            >
-              {item}
-            </a>
-          </li>
-        ))}
+      <ul className={`flex  md:flex ${isOpen ? 'flex-col items-center gap-10 absolute bg-black z-50 bg-opacity-95 top-16 left-0 w-full h-screen' : 'hidden md:flex'}`}>
+        <li className="cursor-pointer overflow-hidden h-auto">
+          <a href="/" className="hover:text-white text-yellow-500 font-poppins  h-6">
+            Home
+          </a>
+        </li>
+        <li className="cursor-pointer overflow-hidden h-auto">
+          <a href="/about" className="hover:text-white text-yellow-500 font-poppins h-6">
+            About
+          </a>
+        </li>
+        <li className="cursor-pointer overflow-hidden h-auto">
+          <a href="/services" className="hover:text-white text-yellow-500 font-poppins  h-6">
+            Products and services
+          </a>
+        </li>
+        <li className="cursor-pointer overflow-hidden h-auto">
+          <a href="/shop" className="hover:text-white text-yellow-500 font-poppins  h-6">
+            Shop
+          </a>
+        </li>
+        <li className="cursor-pointer overflow-hidden h-auto">
+          <a href="/gallery" className="hover:text-white text-yellow-500 font-poppins  h-6">
+            Gallery
+          </a>
+        </li>
+        <li className="cursor-pointer z-10 h-30">
+          <a href="/contact" className="hover:text-white text-yellow-500 font-poppins  h-6">
+            Contact us
+          </a>
+        </li>
       </ul>
     </nav>
   );
-};
+}
 
 export default NavBar;
