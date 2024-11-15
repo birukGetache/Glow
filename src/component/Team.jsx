@@ -27,14 +27,14 @@ const testimonials = [
     name: " Tsigereda Habtamu",
     designation: "Customer service",
     text: "BSc in Computer Science and BSc in accounting",
-    image: "./rafael_oyeyemi.png",
+    image: "./Tsige.jpg",
     linkedin: ' https://www.linkedin.com/in/temechew-dessie-641231237/',
   },
 ];
 const TestimonialCard = ({ name, designation, text, image , linkedin }) => {
   return (
     <div className="max-w-sm p-4 bg-white border rounded-lg shadow-lg space-y-4 mx-auto">
-      <img src={image} alt={name} className="w-20 h-20 rounded-full mx-auto" />
+      <img src={image} alt={name} className="w-[150px] h-[150px] object-cover rounded-full mx-auto" />
       <h3 className="text-xl font-semibold text-center">{name}</h3>
       <p className="text-center text-gray-500">{designation}</p>
       <p className="text-center text-gray-700">{text}</p>
