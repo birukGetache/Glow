@@ -8,7 +8,13 @@ const Footer = () => {
           {/* Section: Logo and Description */}
           <div className="w-full sm:w-1/3 mb-6 sm:mb-0">
             <h3 className="text-2xl font-bold overflow-y-hidden flex justify-center">
-              <img src='./logo.png' className='w-20 h-15 ' style={{borderRadius:"30px"}}></img>
+            <div className="w-[50px] h-[50px] rounded-[25px] bg-white flex justify-center items-center ">
+        <img
+          src="./logo.png"
+          className="w-40 h-35"
+          alt="Logo"
+        />
+      </div>
             </h3>
             <p className="mt-2 text-gray-400 text-center">
             visite Our <a href='/contact' className='text-yellow-500'>contact support</a> 

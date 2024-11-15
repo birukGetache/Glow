@@ -60,7 +60,7 @@ const TestimonialComponent = () => {
   return (
     <div className="py-8 bg-gray-100 px-4 sm:px-8 md:px-16 lg:px-28">
       <h2 className="text-3xl font-bold text-center text-yellow-500 mb-8 overflow-hidden">Testimonials</h2>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-around gap-8">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}

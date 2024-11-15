@@ -27,7 +27,7 @@ DID YOU KNOW?<br></br>
 
 
         <div className='order-3 md:order-3 '>
-         <img src='./agri.jfif' className='rounded w-full '></img>
+         <img src='./photo_2024-11-15_18-54-57.jpg' className='rounded w-full '></img>
         </div>
         <div className=' bg-black bg-opacity-10 box-border pl-5 rounded-md order-4 md:order-4'>
         <div className="w-32 h-32 mt-3 mb-2 box-border bg-opacity-10 bg-black relative">

@@ -76,7 +76,7 @@ const Home = () => {
               animation: "fadeIn 2s ease-in-out forwards",
             }}
           >
-            <img src="./ali.png" className="h-64 md:h-96" alt="Image" />
+            <img src="./centerlogo.png" className="h-64 md:h-96" alt="Image" />
           </div>
 
           {/* Right Div Animation */}
@@ -89,7 +89,7 @@ const Home = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-yellow-500 overflow-y-hidden text-center">
               Feel Safe
             </h1>
-            <span className="text-center pl-10 md:pl-0">100% natural</span>
+            <span className="text-center pl-10 md:pl-0">97% natural</span>
           </div>
         </div>
       </div>
