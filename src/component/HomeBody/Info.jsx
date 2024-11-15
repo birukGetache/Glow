@@ -20,9 +20,11 @@ DID YOU KNOW?<br></br>
 &nbsp;&nbsp;&nbsp;&nbsp; According to Statista, the global health and personal care products market was estimated to be worth $648.6 billion in 2024. These include ultrasound gel, antifungal cream, personal care products like shampoo, conditioner, tooth paste,  and the like. Imagine the disaster if all the production relies on synthetic chemicals.
         </p>
         </div>
-        <div class="order-1 md:order-2">
-         <img src='./glow.jfif' className='rounded'></img>
-        </div>
+        <div class="order-1 md:order-2 rounded flex bg-cover overflow-hidden">
+  <img src="./glow.jfif" alt="Glow Image" class="w-1/2 object-cover" />
+  <img src="./creameside.png" alt="Cream Side Image" class="w-1/2 object-cover" />
+</div>
+
 
 
 

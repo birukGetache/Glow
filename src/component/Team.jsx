@@ -24,9 +24,9 @@ const testimonials = [
     linkedin: ' https://www.linkedin.com/in/temechew-dessie-641231237/',
   },
   {
-    name: "Rafael Oyeyemi",
-    designation: "Finance manager , Nigeria",
-    text: "BSc in Industrial engineer and BSc in accounting",
+    name: " Tsigereda Habtamu",
+    designation: "Customer service",
+    text: "BSc in Computer Science and BSc in accounting",
     image: "./rafael_oyeyemi.png",
     linkedin: ' https://www.linkedin.com/in/temechew-dessie-641231237/',
   },
