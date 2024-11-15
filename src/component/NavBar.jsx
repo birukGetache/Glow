@@ -32,7 +32,7 @@ function NavBar() {
       </div>
 
       {/* Navigation Menu */}
-      <ul className={`flex space-x-6 md:flex ${isOpen ? 'flex-col items-center gap-10 absolute bg-black z-50 bg-opacity-95 left-0 w-full h-[90vh]' : 'hidden md:flex'}`}>
+      <ul className={`flex space-x-6 md:flex ${isOpen ? 'flex-col items-center gap-10 absolute bg-black z-50 bg-opacity-95 top-[10vh] left-0 w-full h-screen' : 'hidden md:flex'}`}>
         <li className="cursor-pointer overflow-hidden h-auto">
           <a href="/" className="hover:text-white text-yellow-500 font-poppins">
             Home
