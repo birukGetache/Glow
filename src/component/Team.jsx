@@ -34,7 +34,7 @@ const testimonials = [
 const TestimonialCard = ({ name, designation, text, image , linkedin }) => {
   return (
     <div className="max-w-sm p-4 bg-white border rounded-lg shadow-lg space-y-4 mx-auto">
-      <img src={image} alt={name} className="w-[150px] h-[150px] object-cover rounded-full mx-auto" />
+      <img src={image} alt={name} className="w-20 h-20 object-cover rounded-full mx-auto" />
       <h3 className="text-xl font-semibold text-center">{name}</h3>
       <p className="text-center text-gray-500">{designation}</p>
       <p className="text-center text-gray-700">{text}</p>
